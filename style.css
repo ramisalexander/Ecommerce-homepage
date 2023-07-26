@@ -1,0 +1,181 @@
+html {
+    font-size: 62.5%;
+}
+
+
+* {
+    font-family: poppins;
+    margin-top: 1rem;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 4.1em;
+    margin: 0;
+}
+
+
+nav a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
+}
+main {
+    display: flex;
+    gap: 8em;
+    margin-top: 60px;
+}
+
+.left-container {
+    width: 45%;
+
+}
+
+.right-container {
+    flex-grow: 1;
+}
+
+.buttons-div {
+    display: flex;
+    gap: 2em;
+}
+
+.btn1 {
+    background-color: #f1e2d1;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    border-radius: 1.9rem;
+    padding: 1rem 2rem;
+}
+
+.btn2 {
+    background-color: #f1e2d127;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    border-radius: 1.9rem;
+    padding: 1rem 2rem;
+}
+
+span {
+    font-weight: 700;
+}
+
+.message-div {
+    display: flex;
+    align-items: center;
+    padding: 40px;    
+    margin-top: 40px;
+
+    width: 75%;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+
+.h2-50K {
+    font-size: 3.3rem;
+}
+
+.msg-left-div {
+    margin-right: 20px;
+    margin-right: 20px;
+
+}
+
+.left-container-of-imgs {
+    background-image: url(Images/clothing3.jpg);
+    background-size: cover;
+    height: 550px;
+    width: 260px;
+}
+
+h1{
+    font-family: playfair display;
+    font-size: 5.2rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+.sub-heading {
+    font-size: 1.8rem;
+}
+
+
+
+
+.card {
+    background-color: gray;
+    border-radius: .8em;
+    padding: 1.1em;
+    display: flex ;
+    align-items: end;
+    background-size: 150%;
+}
+
+
+.right-container {
+    display: grid;
+    gap: 2.3em;
+    grid-template-columns:repeat(2,auto) ;
+    grid-template-areas: 
+    "left right"
+    "left bottom"
+    ;
+}
+
+.card1 {
+    grid-area: left;
+    background-image: url(Images/clothing1.jpg);
+}
+.card2 {
+    
+    background-image: url(Images/clothing2.jpg);
+}
+.card3 {
+   
+    background-image: url(Images/clothing3.jpg);
+}
+
+.card-details {
+    background-color: white;
+    width: 100%;
+    padding: 1em;
+    border-radius: .6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-details a {
+    color: black;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+.card-details p {
+    color: black;
+    font-size: 1.4rem;
+    margin: 0
+    ;
+}
+
+.product-price {
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
